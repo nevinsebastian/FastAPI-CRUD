@@ -1,0 +1,15 @@
+get = to get an infp
+post = to create something new
+put = to update 
+delete = to delet 
+
+
+app = FastAPI()                  
+        
+@app.get("/")                  
+def index():                  
+    return {"name":"firest data"}                  
+
+
+
+    gt,lt,ge,le to specifity the input
